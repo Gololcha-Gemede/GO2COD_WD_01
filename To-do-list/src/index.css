@@ -1,0 +1,93 @@
+  .todolist{
+    font-family: arial,sans-serif;
+    margin: 200px;
+    padding:50px;
+    text-align: center;
+    max-width:500;
+    max-height: 500px;
+    background-color: rgb(47, 78, 78);
+  }
+  .text{
+    font-size: 1.5rem;
+    color: white;
+  }
+  .add-button, .delete, .move-up, .move-down, .edit-button, .save-button{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1.4px solid black;
+    border-radius: 8%;
+    cursor: pointer;
+  }
+  .add-button{
+    background-color: rgb(61, 204, 61);
+    margin: 2px;
+  }
+  .add-button:hover{
+    background-color: rgb(61, 164, 51);
+  
+  }
+  .delete{
+    background-color: rgb(224, 62, 82);
+    margin: 2px;
+    
+  }
+  .delete:hover{
+    background-color: rgb(224, 42, 52);
+  }
+  .move-up{
+    background-color: rgb(55, 55, 189);
+    margin: 2px;
+    
+  }
+  .move-up:hover{
+    background-color: rgb(55, 65, 169);
+  }
+  .move-down{
+    background-color: rgb(197, 197, 40);
+    margin: 2px;
+    
+  }
+  .move-down:hover{
+    background-color: rgb(197, 177, 20);
+  }
+  .edit-button{
+    background-color: rgb(146, 197, 197);
+    margin: 2px;
+  }
+  .edit-button:hover{
+    background-color: rgb(146, 177, 177);
+  }
+  .save-button{
+    background-color: rgb(109, 66, 41);
+    margin: 2px;
+  }
+  .save-button:hover{
+    background-color: rgb(106, 47, 27);
+  }
+  input[type ="text"]{
+    font-size: 1.3rem;
+    padding: 8px;
+    border: 3px solid black;
+    border-radius: 10px;
+  }
+  ol{
+    padding: 0;
+  }
+  li{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 4px;
+    background-color: hsl(0, 0%, 90%);
+    margin-bottom: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .task{
+    flex: 1;
+  }
+  body{
+    background-color: black;
+  }
